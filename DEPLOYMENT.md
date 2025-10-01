@@ -18,7 +18,7 @@
 
 ---
 
-## 2. Lovable Deployment
+## 2. Vercel Deployment
 
 MindCare AI can be deployed directly from Lovable:
 
@@ -83,7 +83,7 @@ Already enabled with:
 ### Required Configuration
 1. **Site URL**: Set to your production domain
    - Navigate to: Supabase Dashboard → Authentication → URL Configuration
-   - Example: `https://your-app.lovable.app` or `https://yourdomain.com`
+   - Example: `https://yourdomain.com`
 
 2. **Redirect URLs**: Add all deployment URLs
    - Development: `http://localhost:8080`
@@ -254,12 +254,11 @@ If deployment issues occur:
 ## 14. Support & Resources
 
 ### Documentation
-- [Lovable Documentation](https://docs.lovable.dev/)
+
 - [Supabase Documentation](https://supabase.com/docs)
 - [PWA Documentation](https://web.dev/progressive-web-apps/)
 
 ### Support Channels
-- Lovable Support: support@lovable.dev
 - Supabase Support: https://supabase.com/support
 - Community: Lovable Discord, Supabase Discord
 
@@ -283,7 +282,7 @@ For production emergencies:
 - Pro tier: Recommended for production
 - Monitor usage: Database, Edge Functions, Storage, Bandwidth
 
-### Lovable AI Costs
+###  AI Costs
 - Usage-based pricing
 - Free tier included
 - Monitor request volume
