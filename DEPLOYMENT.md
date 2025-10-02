@@ -272,7 +272,7 @@ For production emergencies:
 
 ## 15. Cost Considerations
 
-### Lovable Pricing
+### Pricing
 - Check current plan limits in Lovable dashboard
 - Monitor project usage
 - Plan for scaling needs

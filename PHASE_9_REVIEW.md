@@ -11,7 +11,7 @@ MindCare AI has successfully completed all 9 implementation phases. This documen
 - **Status**: IMPLEMENTED
 - **Components**: `src/pages/mood/MoodCheckScreen.tsx`, `supabase/functions/analyze-mood/index.ts`
 - **Features**: 
-  - Text sentiment analysis using Lovable AI (Google Gemini 2.5 Flash)
+  - Text sentiment analysis using AI services (Google Gemini 2.5 Flash)
   - Emotion tag selection
   - Mood score (1-10) with AI suggestions
   - Crisis detection with automatic alerts
@@ -318,7 +318,7 @@ MindCare AI has successfully completed all 9 implementation phases. This documen
 **Already configured in Supabase**:
 - `SUPABASE_URL`
 - `SUPABASE_ANON_KEY`
-- `LOVABLE_API_KEY`
+- `AI_API_KEY`
 
 ### Pre-Deployment Checklist
 - [x] All features implemented and tested
@@ -403,7 +403,7 @@ The application is ready for production deployment after:
 - Monthly security audits using Supabase linter
 - Quarterly code refactoring for optimization
 - Regular dependency updates
-- Monitor Lovable AI usage and costs
+- Monitor AI usage and costs
 
 ### Support & Monitoring
 - Set up error tracking for edge functions
