@@ -3,14 +3,16 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 // https://vitejs.dev/config/
-export default defineConfig(() => ({
+export default defineConfig(() => (
+  {
   server: {
-    host: "::",
-    port: 8080,
-    allowedHosts: [
-      "f421d72a-3aa7-4c64-ae81-0b3eb3640930-00-353blimdzsc9y.riker.replit.dev"
-    ],
+  host: "0.0.0.0",
+  port: 5000,
+  allowedHosts: 'all',  // Add this line
+  hmr: {
+    clientPort: 443,
   },
+
   plugins: [react()],
   resolve: {
     alias: {
